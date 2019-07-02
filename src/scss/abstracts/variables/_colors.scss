@@ -1,0 +1,33 @@
+/* General Colors */
+$black:#000 !default;
+$white:#fff !default;
+$danger: rgb(250, 60, 50) !default;
+$warn: rgb(250, 220, 90) !default;
+$success: rgb(80, 255, 100) !default;
+
+:root {
+  --bg-color: #000;
+  --text-color: #fff;
+}
+
+$background: red;
+$main-color: blue;
+
+$colors: () !default;
+$colors: map-merge(
+    (
+        "white":$white,
+        "black":$black
+    ),
+    $colors
+);
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        "danger":  $danger,
+        "warn":  $warn,
+        "success":  $success
+    ),
+    $theme-colors
+);

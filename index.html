@@ -1,270 +1,55 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RohanChacko</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-<link rel="icon" href="https://avatars3.githubusercontent.com/u/8079868?v=4" type="image/png"></head>
-
+    <meta name="description" content="Personal Website">
+    <!-- <meta name="keywords" content=""> -->
+    <meta name="author" content="RohanChacko">
+    <meta property="og:title" content="rohan chacko.">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="personal website" />
+    <meta property="og:url" content="https://rohanchacko.github.io/">
+    <meta name="theme-color" content="#000">
+    <!-- <link rel="icon" href="assets/image/favicon.png"> -->
+    <title>Rohan Chacko</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zeva-ui/zeva/dist/css/zeva.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
+    <div id="menu">
+        <a id="close"><i class="fas fa-times"></i></a>
+        <br>
+        <a href="index.html">Home</a>
+        <a href="/github.html">Github</a>
     </div>
-    <div id="profile">
-        <div id="profile_img" style="background: url(https://avatars3.githubusercontent.com/u/8079868?v=4) center;"></div>
-        <div id="username"><span style="display:block;">Rohan Chacko</span><a href="https://github.com/RohanChacko">@RohanChacko</a></div>
-        <div id="userbio" style="display: block;">Computer Science Engineering Sophomore | IIIT Hyderabad</div>
-        <div id="about">
-                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; Center for Visual Information Technology</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href=""></a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Hyderabad, India</span>
-                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+    <header class="animated slideInDown" style="animation-delay:0.6s;">
+        <table class="table table--borderless">
+            <tr>
+                <!-- <td style="width:30%;"><img src="assets/image/white.png"></td> -->
+                <td style="width:70%;">
+                    <nav id="notPhone">
+                        <a href="index.html">Home</a>
+                        <a href="/github.html">Github</a>
+                    </nav>
+                    <nav id="phone">
+                        <a id="open"><i class="fas fa-bars"></i></a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div id="top-part">
+        <b class="animated fadeIn" style="animation-delay: 0.8s;">Rohan Chacko.</b>
+        <h2 class="animated fadeIn" style="animation-delay: 0.9s;">Do not gentle into that good night</h2>
     </div>
-    <div id="display">
-        <div id="work">
-            <h1>Work.</h1>
-            <div class="projects" id="work_section">
-                        <a href="https://github.com/RohanChacko/C-Shell" target="_blank">
-                        <section>
-                            <div class="section_title">C-Shell</div>
-                            <div class="about_section">
-                            <span style="display:block;">Linux bash shell implemented in C</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/CVIT-Summer-School" target="_blank">
-                        <section>
-                            <div class="section_title">CVIT-Summer-School</div>
-                            <div class="about_section">
-                            <span style="display:block;">Tutorial assignments, codes, worksheets, links, etc</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Jet-Fighter-3D" target="_blank">
-                        <section>
-                            <div class="section_title">Jet-Fighter-3D</div>
-                            <div class="about_section">
-                            <span style="display:block;">3D Jet Fighter Game built using OpenGL 3.3</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Jetpack-joyride" target="_blank">
-                        <section>
-                            <div class="section_title">Jetpack-joyride</div>
-                            <div class="about_section">
-                            <span style="display:block;">Simplified version of Jetpack Joyride made using OpenGL</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Literature-Survey" target="_blank">
-                        <section>
-                            <div class="section_title">Literature-Survey</div>
-                            <div class="about_section">
-                            <span style="display:block;">Research paper readings &amp; summaries</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Personalized-Interviewer" target="_blank">
-                        <section>
-                            <div class="section_title">Personalized-Interviewer</div>
-                            <div class="about_section">
-                            <span style="display:block;">Personalized Interview question generator based on intelligent resume parsing</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Proxy-Server" target="_blank">
-                        <section>
-                            <div class="section_title">Proxy-Server</div>
-                            <div class="about_section">
-                            <span style="display:block;">Multi-threaded HTTP Proxy Server</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Public-Arena-Booking-Web-App" target="_blank">
-                        <section>
-                            <div class="section_title">Public-Arena-Booking-Web-App</div>
-                            <div class="about_section">
-                            <span style="display:block;">Flask Web App for reservation of public facilities in IIIT, Hyd</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Quiz-Web-Application" target="_blank">
-                        <section>
-                            <div class="section_title">Quiz-Web-Application</div>
-                            <div class="about_section">
-                            <span style="display:block;">Quiz Web Application using Go for backend &amp; React for frontend</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Slide-Matcher" target="_blank">
-                        <section>
-                            <div class="section_title">Slide-Matcher</div>
-                            <div class="about_section">
-                            <span style="display:block;">Slide to frame matching algorithm for DSAA Project. Spring 2019</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Space-Invaders" target="_blank">
-                        <section>
-                            <div class="section_title">Space-Invaders</div>
-                            <div class="about_section">
-                            <span style="display:block;">Space Invaders arcade game made using Pygame library</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Subway-Surfers" target="_blank">
-                        <section>
-                            <div class="section_title">Subway-Surfers</div>
-                            <div class="about_section">
-                            <span style="display:block;">Subway Surfers Game in WebGL 2.0</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/RohanChacko/Super-Mario" target="_blank">
-                        <section>
-                            <div class="section_title">Super-Mario</div>
-                            <div class="about_section">
-                            <span style="display:block;">Super Mario for terminal</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/5fing3rs/3DRecognition" target="_blank">
-                        <section>
-                            <div class="section_title">3DRecognition</div>
-                            <div class="about_section">
-                            <span style="display:block;">3D object recognition in video</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a></div>
-        </div>
-        <div id="forks" style="display:none;">
-            <h1>Forks.</h1>
-            <div class="projects" id="forks_section"></div>
-        </div>
-        <div id="blog_section">
-            <h1>Blog.</h1>
-            <div id="blogs"></div>
-        </div>
-        <div id="footer">
-            <p>made on earth by a human</p>
-        </div>
-    </div>
-    <script type="text/javascript">
-        setTimeout(function () {
-            document.getElementById("loading").classList.add("animated");
-            document.getElementById("loading").classList.add("fadeOut");
-            setTimeout(function () {
-                document.getElementById("loading").classList.remove("animated");
-                document.getElementById("loading").classList.remove("fadeOut");
-                document.getElementById("loading").style.display = "none";
-            }, 800);
-        }, 1500);
-        $.getJSON("blog.json", function (blog) {
-            blog = blog || [];
-            if (blog.length == 0) {
-                return document.getElementById("blog_section").style.display = "none";
-            }
-            for (var i = 0; i < blog.length; i++) {
-                $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-            }
-        }).fail(function () {
-            return document.getElementById("blog_section").style.display = "none";
-        });
-    </script>
-
-    <script type="text/javascript">
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js');
-            });
-        }
-    </script>
-
-
-</body></html>
+    <footer class="animated slideInUp" style="animation-delay: 0.8s;"><b>made on earth by humans</b></footer>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="../zeva/src/js/index.min.js"></script>
+</body>
+</html>
