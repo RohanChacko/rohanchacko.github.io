@@ -50,7 +50,11 @@ nav a {
     transition:0.4s ease-in-out;
 }
 #top-part a {
-    color:transparent;
+    color:white;
+    text-decoration:none;
+}
+#top-part a:hover {
+    text-decoration: underline;
 }
 #top-part b {
     font-size:130px;
