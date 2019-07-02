@@ -13,6 +13,24 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+#menu {
+    padding:5vh 5vw;
+    top:80vh;
+    position:fixed;
+    display:block;
+    flex-direction:column;
+    justify-content:center;
+    color:#fff;
+    font-size:16px;
+}
+#menu a {
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    margin:0px 15px;
+}
+
 #loading {
     width: 100vw;
     height: 100vh;
@@ -373,7 +391,7 @@ body{
 }
 
 ::selection {
-    color:var(--bg-color); 
+    color:var(--bg-color);
     background:var(--text-color);
 }
 
