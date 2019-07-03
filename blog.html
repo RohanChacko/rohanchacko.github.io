@@ -30,7 +30,7 @@
             <div id="blogs"></div>
         </div>
         <div id="footer">
-            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+            <p>made on earth by a human</p>
         </div>
     </div>
     <script type="text/javascript">
@@ -51,7 +51,7 @@
             for (var i = 0; i < blog.length; i++) {
               url = encodeURIComponent(blog[i].url_title);
                 $("#blogs").append(`
-            <a href="./blog/${url}/" target="_blank">
+            <a href="./blog/${url}/">
                 <section>
                     <img src="${blog[i].top_image}">
                     <div class="blog_container">
