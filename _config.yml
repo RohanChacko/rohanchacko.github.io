@@ -1,10 +1,10 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Rohan Chacko"
-title_separator          : "-"
+title_separator          : "|"
 name                     : &name "Rohan Chacko"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Senior undergraduate at IIIT Hyderabad, India"
+url                      : https://rohanchacko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RohanChacko/rohanchacko.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -75,7 +75,7 @@ analytics:
 author:
   name             : "RohanChacko"
   avatar           : "profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Senior undergraduate at IIIT Hyderabad, India. Working on dense 3D reconstruction"
   location         : "Hyderabad, India"
   employer         :
   pubmed           :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "RohanChacko"
   google_plus      :
   keybase          :
   instagram        :
@@ -102,7 +102,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -245,7 +245,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/:categories/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Asia/Dubai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
