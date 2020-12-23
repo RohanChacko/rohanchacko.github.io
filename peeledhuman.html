@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Meta tags for Zotero grab citation -->
+    <meta name="citation_title" content="PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction">
+    <meta name="citation_author" content="Chacko, Rohan">
+    <meta name="citation_author" content="Jinka, Sagar Sai">
+    <meta name="citation_author" content="Sharma, Avinash">
+    <meta name="citation_author" content="Narayanan, P.J.">
+    <!-- Meta tags for search engines to crawl -->
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="We introduce PeeledHuman - a novel shape representation of the human body that is robust to self-occlusions. PeeledHuman encodes the human body as a set of Peeled Depth and RGB maps in 2D, obtained by performing raytracing on the 3D body model and extending each ray beyond its first intersection. This formulation allows us to handle self-occlusions efficiently compared to other representations. Given a monocular RGB image, we learn these Peeled maps in an end-to-end generative adversarial fashion using our novel framework - PeelGAN. We train PeelGAN using a 3D Chamfer loss and other 2D losses to generate multiple depth values per-pixel and a corresponding RGB field per-vertex in a dual-branch setup. In our simple non-parametric solution, the generated Peeled Depth maps are back-projected to 3D space to obtain a complete textured 3D shape. The corresponding RGB maps provide vertex-level texture details. We compare our method with current parametric and non-parametric methods in 3D reconstruction and find that we achieve state-of-theart-results. We demonstrate the effectiveness of our representation on publicly available BUFF and MonoPerfCap datasets as well as loose clothing data collected by our calibrated multi-Kinect setup.">
+    <meta name="keywords" content="machine learning; computer vision; 3D vision; 3d human reconstruction;multi-layer representation;ray tracing;monocular reconstruction;GANs">
+    <link rel="stylesheet" href="src/project.css">
+</head>
+
+<body>
+
+<main role="main" id="main", class="container">
+    <br/>
+    <div class="jumbotron" style="text-align:center;">
+        <h1>PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction</h1>
+        <br>
+        <b><a href="https://scholar.google.com/citations?user=NtfzxawAAAAJ&hl=en" target="_blank">Sagar Sai Jinka</a></b>,
+        <b><a href="http://github.com/RohanChacko" target="_blank">Rohan Chacko</a></b>,
+        <b><a href="https://sites.google.com/site/asharmaresearch/" target="_blank">Avinash Sharma</a></b>,
+        <b><a href="https://faculty.iiit.ac.in/~pjn/" target="_blank">P.J. Narayanan</a></b>
+        <br><br>
+        <a href="https://iiit.ac.in/" target="_blank">International Institute of Information Technology, Hyderabad, India</a>
+        <br><br>
+	      <b><a href="http://3dv2020.dgcv.nii.ac.jp/" target="_blank">International Conference on 3D Vision (3DV) 2020</a><br></b>
+        <br><br>
+        <a href="https://www.iiit.ac.in/" target="_blank"><img width="35%" height="35%" src="src/IIITH.png"></a>
+
+    </div>
+
+
+    <div class="row justify-content-center">
+        <div class="column">
+            <p class="mb-5"><a class="btn btn-large btn-light" href='https://arxiv.org/abs/2002.06664' target="_blank">ArXiv</a></p>
+	      </div>
+        <div class="column">
+            <p class="mb-5"><a class="btn btn-large btn-light" href='https://github.com/RohanChacko/rohanchacko.github.io/blob/master/peeledhuman.pdf' target="">Paper</a></p>
+	      </div>
+        <div class="column">
+            <p class="mb-5"><a class="btn btn-large btn-light" href='PeeledHuman-SupplVideo.mp4' target="_blank">Supplementary Video</a></p>
+	      </div>
+        <div class="column">
+            <p class="mb-5"><a class="btn btn-large btn-light" href='https://www.youtube.com/watch?v=4PdHcyyzI1w' target="">Teaser Video</a></p>
+	      </div>
+  </div>
+
+
+
+    <div class="row mb-5 mt-3"> <div class="col-md-12"><img src="motivation.jpg" width="100%" class="img-responsive"></div> </div>
+
+
+        <h2>Abstract</h2>
+        <p class="mb-5">
+          We introduce PeeledHuman - a novel shape representation of the human body that is robust to self-occlusions.
+          PeeledHuman encodes the human body as a set of Peeled Depth and RGB maps in 2D, obtained by performing raytracing
+          on the 3D body model and extending each ray beyond its first intersection. This formulation allows us to handle
+          self-occlusions efficiently compared to other representations. Given a monocular RGB image, we learn these Peeled maps
+          in an end-to-end generative adversarial fashion using our novel framework - PeelGAN. We train PeelGAN using a
+          3D Chamfer loss and other 2D losses to generate multiple depth values per-pixel and a corresponding RGB field
+          per-vertex in a dual-branch setup. In our simple non-parametric solution, the generated Peeled Depth maps are
+          back-projected to 3D space to obtain a complete textured 3D shape. The corresponding RGB maps provide vertex-level
+          texture details. We compare our method with current parametric and non-parametric methods in 3D reconstruction and
+          find that we achieve state-of-theart-results. We demonstrate the effectiveness of our representation on publicly
+          available BUFF and MonoPerfCap datasets as well as loose clothing data collected by our calibrated multi-Kinect setup.
+
+	       </p>
+
+    </div>
+
+	<iframe width="800" height="450" src="https://www.youtube.com/embed/0SNjBUQA4ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <br/><br/><br/><br/>
+
+  <h2>Results</h2>
+  <div class="section teaser">
+		<a href="images/results/nocs_maggr.gif" target="_blank" class="imageLink"><img width="95%" height="95%" src="src/results.gif"></a>
+	<p style="font-size:11px; text-align:center">
+	</p>
+	</div>
+
+  <h2>BibTeX</h2>
+  <pre class="bg-light" style="padding: 5px 10.5px;">@inproceedings{sagar2020peeledhuman,
+  title = {PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction},
+  author = {Jinka, Sagar Sai and Chacko, Rohan and Sharma, Avinash and Narayanan, P.J.},
+  booktitle = {International Conference on 3D Vision ({3DV})},
+  month = {November},
+  year = {2020},
+  url = {https://rohanchacko.github.io/peeledhuman.html},
+  pages={879-888},
+  organization = {IEEE},
+  }</pre>
+</main>
+
+
+<footer class="mt-5 pt-2 pb-3 border-top text-center text-muted small">
+    For questions and clarifications please contact Rohan Chacko (rohan [dot] chacko [at] students [dot] iiit [dot] ac [dot] in)
+</footer>
+
+</body>
+</html>
+"
