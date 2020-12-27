@@ -17,7 +17,7 @@ My overall research goal is to exploit contextuality from sensory data to improv
 
 News
 ======
-- **October 2020** Our work was accepted to the International Conference on 3D Vision 2020. Check out our [project page](peeledhuman.html)
+- **October 2020** Our work was accepted to the International Conference on 3D Vision 2020. Check out our [project page](peeledhuman.html){:target="_blank"}
 - **August 2020** Our team was a finalist for the Smart India Hackathon 2020
 - **May 2020** Started my summer research internship with the R-PAD Lab, Robotics Institute, CMU under Dr. David Held
 - **March 2020** National runner-up for the Microsoft Code.Fun.Do Hackathon 2019
