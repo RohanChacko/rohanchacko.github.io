@@ -1,0 +1,33 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if author.googlescholar %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+<table style="width:100%; border: none; font-size: 16px;">
+  <tbody>
+    <tr style="border: none;">
+      <td width="45%" style="border: none;"><img style="float: right; " src="https://raw.githubusercontent.com/RohanChacko/rohanchacko.github.io/master/images/motivation.jpg?token=AB5UT7FP7TIY36WWA5RCIMC76GCNC"></td>
+      <td width="55%" style="border: none;">
+        <h3>PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction</h3>
+        <h5><i>International Conference on 3D Vision, 2020 </i></h5>
+        <p> We introduce PeeledHuman - a novel shape representation of the human body that is robust to self-occlusions.
+          PeeledHuman encodes the human body as a set of Peeled Depth and RGB maps in 2D, obtained by performing ray-tracing on the 3D
+          body model and extending each ray beyond its first intersection. Given a monocular RGB image, we learn
+          these Peeled maps in an end-to-end generative adversarial fashion using our novel framework - PeelGAN.
+          We compare our method with current parametric and non-parametric methods in 3D reconstruction and find that we achieve state-of-the-art-results.
+          <br>
+          <a target="_blank" href="https://rohanchacko.github.io/peeledhuman">[Project Page]</a>
+          <a target="_blank" href="https://arxiv.org/abs/2002.06664">[Arxiv]</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
