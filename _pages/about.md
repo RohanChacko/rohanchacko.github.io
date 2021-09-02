@@ -14,7 +14,7 @@ I had the opportunity to intern under [Dr. David Held](http://davheld.github.io/
 
 My overall research goal is to exploit contextuality from sensory data to improve 3D scene understanding. My research interests broadly include 3D vision, human reconstruction, neural rendering, and graphics.
 
-I am seeking Computer Vision internships for Summer 2022. Please reach out via email for potential opportunities.
+*I am seeking Computer Vision internships for Summer 2022. Please reach out via email for potential opportunities.*
 
 News
 ======
