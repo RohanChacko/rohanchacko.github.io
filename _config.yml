@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Rohan Chacko"
 title_separator          : "|"
 name                     : &name "Rohan Chacko"
-description              : &description "Senior undergraduate at IIIT Hyderabad, India"
+description              : &description "MSCV graduate at CMU"
 url                      : https://rohanchacko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RohanChacko/rohanchacko.github.io"
@@ -75,12 +75,12 @@ analytics:
 author:
   name             : "Rohan Chacko"
   avatar           : "profile.jpg"
-  bio              : "Senior undergraduate at IIIT Hyderabad, India. Working on dense 3D reconstruction"
-  location         : "Hyderabad, India"
+  bio              : # "Senior undergraduate at IIIT Hyderabad, India. Working on dense 3D reconstruction"
+  location         : # "Hyderabad, India"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=qYdxs0wAAAAJ"
-  email            : "rohan.chacko@students.iiit.ac.in"
+  email            : "rohanc@andrew.cmu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -95,7 +95,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "rohan-chacko-68b965167/"
+  linkedin         : "rohan-chacko/"
   orcid            :
   pinterest        :
   soundcloud       :
