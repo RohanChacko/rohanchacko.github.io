@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://rohanchacko.github.io/portfolio/portfolio-1/</loc>
+</url>
+<url>
+<loc>https://rohanchacko.github.io/portfolio/portfolio-2/</loc>
+</url>
+<url>
+<loc>https://rohanchacko.github.io/markdown/</loc>
+</url>
+<url>
 <loc>https://rohanchacko.github.io/</loc>
 </url>
 <url>
@@ -14,15 +23,14 @@
 </url>
 <url>
 <loc>https://rohanchacko.github.io/files/71ad0e8dba362cef31b802e02d0da6ab.pdf</loc>
-<lastmod>2020-12-26T23:48:10+04:00</lastmod>
+<lastmod>2022-08-27T01:38:16+04:00</lastmod>
 </url>
 <url>
 <loc>https://rohanchacko.github.io/files/peeledhumans/peeledhuman.pdf</loc>
-<lastmod>2020-10-15T09:18:55+04:00</lastmod>
+<lastmod>2020-11-26T19:06:50+04:00</lastmod>
 </url>
 <url>
 <loc>https://rohanchacko.github.io/peeledhuman.html</loc>
-<lastmod>2020-12-27T13:13:59+04:00</lastmod>
-</url>
+<lastmod>2021-03-05T20:55:23+04:00</lastmod>
 </url>
 </urlset>

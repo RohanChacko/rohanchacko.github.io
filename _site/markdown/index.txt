@@ -189,19 +189,17 @@
 
   <div class="author__content">
     <h3 class="author__name">Rohan Chacko</h3>
-    <p class="author__bio">Senior undergraduate at IIIT Hyderabad, India. Working on dense 3D reconstruction</p>
+    
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Hyderabad, India</li>
       
       
       
-      
-        <li><a href="mailto:rohan.chacko@students.iiit.ac.in"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:rohanc@andrew.cmu.edu"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       
       
        
@@ -209,7 +207,7 @@
       
       
       
-        <li><a href="https://www.linkedin.com/in/rohan-chacko-68b965167/"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/rohan-chacko/"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       
       
       
@@ -268,247 +266,169 @@
       
 
       <section class="page__content" itemprop="text">
-        <h2 id="locations-of-key-filesdirectories">Locations of key files/directories</h2>
+        ## Locations of key files/directories
 
-<ul>
-  <li>Basic config options: _config.yml</li>
-  <li>Top navigation bar config: _data/navigation.yml</li>
-  <li>Single pages: _pages/</li>
-  <li>Collections of pages are .md or .html files in:
-    <ul>
-      <li>_publications/</li>
-      <li>_portfolio/</li>
-      <li>_posts/</li>
-      <li>_teaching/</li>
-      <li>_talks/</li>
-    </ul>
-  </li>
-  <li>Footer: _includes/footer.html</li>
-  <li>Static files (like PDFs): /files/</li>
-  <li>Profile image (can set in _config.yml): images/profile.png</li>
-</ul>
+* Basic config options: _config.yml
+* Top navigation bar config: _data/navigation.yml
+* Single pages: _pages/
+* Collections of pages are .md or .html files in:
+  * _publications/
+  * _portfolio/
+  * _posts/
+  * _teaching/
+  * _talks/
+* Footer: _includes/footer.html
+* Static files (like PDFs): /files/
+* Profile image (can set in _config.yml): images/profile.png
 
-<h2 id="tips-and-hints">Tips and hints</h2>
+## Tips and hints
 
-<ul>
-  <li>Name a file “.md” to have it render in markdown, name it “.html” to render in HTML.</li>
-  <li>Go to the <a href="https://github.com/academicpages/academicpages.github.io/commits/master">commit list</a> (on your repo) to find the last version Github built with Jekyll.
-    <ul>
-      <li>Green check: successful build</li>
-      <li>Orange circle: building</li>
-      <li>Red X: error</li>
-      <li>No icon: not built</li>
-    </ul>
-  </li>
-</ul>
+* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
+* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
+  * Green check: successful build
+  * Orange circle: building
+  * Red X: error
+  * No icon: not built
 
-<h2 id="resources">Resources</h2>
-<ul>
-  <li><a href="https://shopify.github.io/liquid/tags/control-flow/">Liquid syntax guide</a></li>
-</ul>
+## Resources
+ * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
 
-<h2 id="markdown-guide">Markdown guide</h2>
+## Markdown guide
 
-<h3 id="header-three">Header three</h3>
+### Header three
 
-<h4 id="header-four">Header four</h4>
+#### Header four
 
-<h5 id="header-five">Header five</h5>
+##### Header five
 
-<h6 id="header-six">Header six</h6>
+###### Header six
 
-<h2 id="blockquotes">Blockquotes</h2>
+## Blockquotes
 
-<p>Single line blockquote:</p>
+Single line blockquote:
 
-<blockquote>
-  <p>Quotes are cool.</p>
-</blockquote>
+> Quotes are cool.
 
-<h2 id="tables">Tables</h2>
+## Tables
 
-<h3 id="table-1">Table 1</h3>
+### Table 1
 
-<table>
-  <thead>
-    <tr>
-      <th>Entry</th>
-      <th>Item</th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="#">John Doe</a></td>
-      <td>2016</td>
-      <td>Description of the item in the list</td>
-    </tr>
-    <tr>
-      <td><a href="#">Jane Doe</a></td>
-      <td>2019</td>
-      <td>Description of the item in the list</td>
-    </tr>
-    <tr>
-      <td><a href="#">Doe Doe</a></td>
-      <td>2022</td>
-      <td>Description of the item in the list</td>
-    </tr>
-  </tbody>
-</table>
+| Entry            | Item   |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
 
-<h3 id="table-2">Table 2</h3>
+### Table 2
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Header1</th>
-      <th style="text-align: center">Header2</th>
-      <th style="text-align: right">Header3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Foot1</td>
-      <td style="text-align: center">Foot2</td>
-      <td style="text-align: right">Foot3</td>
-    </tr>
-  </tfoot>
-</table>
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
 
-<h2 id="definition-lists">Definition Lists</h2>
+## Definition Lists
 
-<dl>
-  <dt>Definition List Title</dt>
-  <dd>Definition list division.</dd>
-  <dt>Startup</dt>
-  <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
-  <dt>#dowork</dt>
-  <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
-  <dt>Do It Live</dt>
-  <dd>I’ll let Bill O’Reilly <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live">explain</a> this one.</dd>
-</dl>
+Definition List Title
+:   Definition list division.
 
-<h2 id="unordered-lists-nested">Unordered Lists (Nested)</h2>
+Startup
+:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
 
-<ul>
-  <li>List item one
-    <ul>
-      <li>List item one
-        <ul>
-          <li>List item one</li>
-          <li>List item two</li>
-          <li>List item three</li>
-          <li>List item four</li>
-        </ul>
-      </li>
-      <li>List item two</li>
-      <li>List item three</li>
-      <li>List item four</li>
-    </ul>
-  </li>
-  <li>List item two</li>
-  <li>List item three</li>
-  <li>List item four</li>
-</ul>
+#dowork
+:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
 
-<h2 id="ordered-list-nested">Ordered List (Nested)</h2>
+Do It Live
+:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
 
-<ol>
-  <li>List item one
-    <ol>
-      <li>List item one
-        <ol>
-          <li>List item one</li>
-          <li>List item two</li>
-          <li>List item three</li>
-          <li>List item four</li>
-        </ol>
-      </li>
-      <li>List item two</li>
-      <li>List item three</li>
-      <li>List item four</li>
-    </ol>
-  </li>
-  <li>List item two</li>
-  <li>List item three</li>
-  <li>List item four</li>
-</ol>
+## Unordered Lists (Nested)
 
-<h2 id="buttons">Buttons</h2>
+  * List item one 
+      * List item one 
+          * List item one
+          * List item two
+          * List item three
+          * List item four
+      * List item two
+      * List item three
+      * List item four
+  * List item two
+  * List item three
+  * List item four
 
-<p>Make any link standout more when applying the <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
+## Ordered List (Nested)
 
-<h2 id="notices">Notices</h2>
+  1. List item one 
+      1. List item one 
+          1. List item one
+          2. List item two
+          3. List item three
+          4. List item four
+      2. List item two
+      3. List item three
+      4. List item four
+  2. List item two
+  3. List item three
+  4. List item four
 
-<p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code class="language-plaintext highlighter-rouge">{: .notice}</code> to a paragraph.</p>
+## Buttons
 
-<h2 id="html-tags">HTML Tags</h2>
+Make any link standout more when applying the `.btn` class.
 
-<h3 id="address-tag">Address Tag</h3>
+## Notices
+
+**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+{: .notice}
+
+## HTML Tags
+
+### Address Tag
 
 <address>
   1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
 </address>
 
-<h3 id="anchor-tag-aka-link">Anchor Tag (aka. Link)</h3>
+### Anchor Tag (aka. Link)
 
-<p>This is an example of a <a href="http://github.com" title="Github">link</a>.</p>
+This is an example of a [link](http://github.com "Github").
 
-<h3 id="abbreviation-tag">Abbreviation Tag</h3>
+### Abbreviation Tag
 
-<p>The abbreviation <abbr title="Cascading Style Sheets">CSS</abbr> stands for “Cascading Style Sheets”.</p>
+The abbreviation CSS stands for "Cascading Style Sheets".
 
-<h3 id="cite-tag">Cite Tag</h3>
+*[CSS]: Cascading Style Sheets
 
-<p>“Code is poetry.” —<cite>Automattic</cite></p>
+### Cite Tag
 
-<h3 id="code-tag">Code Tag</h3>
+"Code is poetry." ---<cite>Automattic</cite>
 
-<p>You will learn later on in these tests that <code class="language-plaintext highlighter-rouge">word-wrap: break-word;</code> will be your best friend.</p>
+### Code Tag
 
-<h3 id="strike-tag">Strike Tag</h3>
+You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
 
-<p>This tag will let you <strike>strikeout text</strike>.</p>
+### Strike Tag
 
-<h3 id="emphasize-tag">Emphasize Tag</h3>
+This tag will let you <strike>strikeout text</strike>.
 
-<p>The emphasize tag should <em>italicize</em> text.</p>
+### Emphasize Tag
 
-<h3 id="insert-tag">Insert Tag</h3>
+The emphasize tag should _italicize_ text.
 
-<p>This tag should denote <ins>inserted</ins> text.</p>
+### Insert Tag
 
-<h3 id="keyboard-tag">Keyboard Tag</h3>
+This tag should denote <ins>inserted</ins> text.
 
-<p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> tag.</p>
+### Keyboard Tag
 
-<h3 id="preformatted-tag">Preformatted Tag</h3>
+This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
 
-<p>This tag styles large blocks of code.</p>
+### Preformatted Tag
+
+This tag styles large blocks of code.
 
 <pre>
 .post-title {
@@ -520,25 +440,25 @@
 }
 </pre>
 
-<h3 id="quote-tag">Quote Tag</h3>
+### Quote Tag
 
-<p><q>Developers, developers, developers…</q> –Steve Ballmer</p>
+<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
 
-<h3 id="strong-tag">Strong Tag</h3>
+### Strong Tag
 
-<p>This tag shows <strong>bold text</strong>.</p>
+This tag shows **bold text**.
 
-<h3 id="subscript-tag">Subscript Tag</h3>
+### Subscript Tag
 
-<p>Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.</p>
+Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
 
-<h3 id="superscript-tag">Superscript Tag</h3>
+### Superscript Tag
 
-<p>Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
 
-<h3 id="variable-tag">Variable Tag</h3>
+### Variable Tag
 
-<p>This allows you to denote <var>variables</var>.</p>
+This allows you to denote <var>variables</var>.
 
         
       </section>
@@ -589,7 +509,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Rohan Chacko. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Rohan Chacko. Last updated: Jan 2021. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -605,7 +525,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '', 'auto');
+  ga('create', 'UA-133679968-1', 'auto');
   ga('send', 'pageview');
 </script>
 
